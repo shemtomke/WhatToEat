@@ -3,4 +3,12 @@
     <string name="what_do_you_want_to_eat">WHAT DO YOU WANT TO EAT?</string>
     <string name="search">SEARCH</string>
     <string name="good_morning_shem">GOOD MORNING SHEM,</string>
+    <string name="title1">BUDGET</string>
+    <string name="title2">TIME</string>
+    <string name="title3">HEALTH</string>
+    <string name="title4">STORE</string>
+    <string name="description1">Find Your Perfect Meal Based On Your Budget With Our App</string>
+    <string name="description2">Find Meals That Fit Your Busy Schedule With Our Filter For Preparation Time</string>
+    <string name="description3">Discover And Save Healthy And Balanced Recipes For Long-Term Wellness</string>
+    <string name="description4">Find Meals That Use The Ingredients You Already Have At Home</string>
 </resources>
