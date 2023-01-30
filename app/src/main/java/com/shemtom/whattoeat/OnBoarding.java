@@ -35,7 +35,7 @@ public class OnBoarding extends AppCompatActivity {
 
         if(saveState.getState() == 1)
         {
-            startActivity(new Intent(OnBoarding.this, Login.class));
+            startActivity(new Intent(OnBoarding.this, Dashboard.class));
             finish();
         }
         ObAdapter adapter = new ObAdapter(this);
@@ -98,13 +98,12 @@ public class OnBoarding extends AppCompatActivity {
                         else
                         {
                             saveState.setState(1);
-                            startActivity(new Intent(OnBoarding.this, Login.class));
+                            startActivity(new Intent(OnBoarding.this, Dashboard.class));
                             finish();
                         }
                     }
                 });
             }
-
             @Override
             public void onPageScrollStateChanged(int state) {
 
